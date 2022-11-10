@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(33, 33, 35);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.base-header {
+    background-color: rgb(40, 40, 42)
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+.plus {
+    color: #865bce !important;
+}
+
+.orcamento-texto {
+    color: #865bce !important;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+}
+
+li {
+    font-size: 20px !important;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.orcamento {
+    border: none;
+    background-color: #865bce;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.orcamento:hover {
+    background-color: #9963f5;
+}
+
+.divisao {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: system-ui;
+    color: white;
+}
+
+p {
+    font-family: system-ui;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicos {
+    color: #865bce;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: #865bce;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #f0f8ff00;
+    color: white;
+}
