@@ -1,4 +1,90 @@
-body {
+html {
+    background-color: rgb(33, 33, 35);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header,
+main {
+    background-color: rgb(33, 33, 35);
+}
+
+li {
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+input {
+    border: #865bce;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #f0f8ff00;
+    color: white;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: end;
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+.itens {
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+
+.plus {
+    color: #865bce !important;
+}
+
+.orcamento {
+    border: none;
+    background-color: #865bce;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 12px;
+}
+
+.orcamento-texto {
+    color: #865bce !important;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+}
+
+.texto-breve {
+    color: white;
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+/* html {
     background-color: rgb(33, 33, 35);
     max-width: 1200px;
     margin: 0 auto;
@@ -6,6 +92,7 @@ body {
 }
 
 header {
+    background-color: rgb(33, 33, 35);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -102,4 +189,4 @@ input {
     border-radius: 10px;
     background-color: #f0f8ff00;
     color: white;
-}
+} */
