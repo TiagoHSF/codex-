@@ -107,6 +107,11 @@ footer {
     justify-content: space-between;
 }
 
+.simulador {
+    font-size: 10px;
+    margin-left: 44px;
+}
+
 /* html {
     background-color: rgb(33, 33, 35);
     max-width: 1200px;
